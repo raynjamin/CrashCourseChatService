@@ -49,6 +49,9 @@ public class ChatWebSocket {
 
         if (incomingMessage != null) {
             connections.get(session).getMessages().add(incomingMessage);
+
+            // interpret message
+
             broadCastMessage(channel, incomingMessage);
         }
     }
