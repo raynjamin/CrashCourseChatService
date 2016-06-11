@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp out/production/* Main
+web: java $JAVA_OPTS -cp out/production/CrashCourseChatService/com/theironyard/crashcourse/entities/*:out/production/CrashCourseChatService/com/theironyard/crashcourse/server/* Main
